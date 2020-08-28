@@ -128,7 +128,7 @@ int main(){
         {
           std::cout << "pix0 == blue: " << std::endl;
           pix0 = green;
-          pix1 = BLEU;
+          pix1 = BLUE;
           pix2 = red;
         }
         else if(pix0 == green)

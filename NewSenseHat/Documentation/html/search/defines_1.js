@@ -2,7 +2,7 @@ var searchData=
 [
   ['black_2186',['BLACK',['../_sense_hat_8h.html#a7b3b25cba33b07c303f3060fe41887f6',1,'SenseHat.h']]],
   ['blanc_2187',['BLANC',['../_sense_hat_8h.html#a4371941fa5aa27c04b3e2b973c39f4b0',1,'SenseHat.h']]],
-  ['bleu_2188',['BLEU',['../_sense_hat_8h.html#ae22837728df88da892b4bb16bb98296d',1,'SenseHat.h']]],
+  ['BLUE_2188',['BLUE',['../_sense_hat_8h.html#ae22837728df88da892b4bb16bb98296d',1,'SenseHat.h']]],
   ['blue_2189',['BLUE',['../_sense_hat_8h.html#a79d10e672abb49ad63eeaa8aaef57c38',1,'SenseHat.h']]],
   ['bmp180_5faddress_2190',['BMP180_ADDRESS',['../_r_t_pressure_defs_8h.html#acf911c35c81cbcb255d48ff88944dcd7',1,'RTPressureDefs.h']]],
   ['bmp180_5fid_2191',['BMP180_ID',['../_r_t_pressure_defs_8h.html#acb1171d603b95662bb808c6156180bbc',1,'RTPressureDefs.h']]],

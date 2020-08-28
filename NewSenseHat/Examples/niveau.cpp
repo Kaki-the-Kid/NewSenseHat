@@ -39,10 +39,10 @@ int x,y;
 	if (y>6) y=6;
 	cout << "inclinaison X : " << fixed << setprecision(0) << atan2 (za,xa) * 180/PI - 90 << " °" << endl;
         cout << "inclinaison Y : " << fixed << setprecision(0) << atan2 (za,ya) * 180/PI - 90 <<  " °" << endl;
-	carte.AllumerPixel(x  ,y  ,BLEU);
-	carte.AllumerPixel(x+1,y  ,BLEU);
-        carte.AllumerPixel(x  ,y+1,BLEU);
-        carte.AllumerPixel(x+1,y+1,BLEU);
+	carte.AllumerPixel(x  ,y  ,BLUE);
+	carte.AllumerPixel(x+1,y  ,BLUE);
+        carte.AllumerPixel(x  ,y+1,BLUE);
+        carte.AllumerPixel(x+1,y+1,BLUE);
     }
 }
 

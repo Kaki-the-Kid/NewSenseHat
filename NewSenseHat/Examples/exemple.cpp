@@ -29,7 +29,7 @@ int main(){
     COULEUR rouge = carte.ConvertirRGB565(255,0,0);
 
     for (int i=0; i<8; i++){
-   	carte.AllumerPixel(1, i, BLEU);
+   	carte.AllumerPixel(1, i, BLUE);
    	carte.AllumerPixel(0, i, rouge);
    	carte.AllumerPixel(2, i, vert);
    	sleep(1);

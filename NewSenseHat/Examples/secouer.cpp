@@ -24,10 +24,10 @@ int main(){
 	y = abs(y);
 	z = abs(z);
 	if (x>0.2 || y>0.2 || z>1.2){
-	    carte.Effacer(BLEU);
+	    carte.Effacer(BLUE);
 	    sleep(3);
 	}
 
-	carte.Effacer(NOIR);
+	carte.Effacer(BLACK);
     }
 }

@@ -207,7 +207,7 @@ SenseHat::SenseHat()
   InitializeHumidity();
   InitializePressure();
   buffer=" ";
-  couleur=BLEU;
+  couleur=BLUE;
   rotation = 0;
 }
 
@@ -270,12 +270,6 @@ void SenseHat::SetRotation(uint16_t _rotation)
  * @param couleurFond   uint16_t une couleur au format 565
  * @details affiche un caractère (lettre ponctuation signe) sur l'afficheur
  */
-
-void SenseHat::AfficherLettre(char lettre, uint16_t couleurTexte, uint16_t couleurFond)
-{
-  ViewLetter(lettre, couleurTexte,  couleurFond);
-}
-
 void SenseHat::ViewLetter(char lettre, uint16_t couleurTexte, uint16_t couleurFond)
 {
 	uint16_t chr[8][8];
@@ -292,11 +286,6 @@ void SenseHat::ViewLetter(char lettre, uint16_t couleurTexte, uint16_t couleurFo
  * @param couleur   uint16_t une couleur au format 565
  * @details fixe la couleur d'un pixel désigné par ses coordonnées
  */
-void SenseHat::AllumerPixel(int ligne, int colonne, uint16_t couleur)
-{
-  LightPixel(ligne, colonne, couleur);
-}
-
 void SenseHat::LightPixel(int row, int column, uint16_t color)
 {
 	if(row < 0)
@@ -316,11 +305,6 @@ void SenseHat::LightPixel(int row, int column, uint16_t color)
  * @details  retourne, sous la forme d'un entier sur 16 bits non signé, la couleur du pixel
  *           dont les coordonnées sont passées à la fonction.
  */
-uint16_t SenseHat::ObtenirPixel(int ligne, int colonne)
-{
-  return (GetPixel(ligne, colonne));
-}
-
 uint16_t SenseHat::GetPixel(int row, int column)
 {
 	if(row < 0)
@@ -337,12 +321,6 @@ uint16_t SenseHat::GetPixel(int row, int column)
  * @details Affiche le tableau de pixel sur l'afficheur
  *          en tenant compte de l'angle de rotation
  */
-void SenseHat::AfficherMotif(uint16_t motif[][8])
-{
-
-  ViewPattern(motif);
-}
-
 void SenseHat::ViewPattern(uint16_t motif[][8])
 {
 	for(int ligne=0; ligne <8 ; ligne++)
@@ -377,12 +355,6 @@ void SenseHat::ViewPattern(uint16_t motif[][8])
  * @details Fait pivoter le motif afficher autour du milieu d'un angle de
  *          rotation.
  */
-
-void SenseHat::PivoterMotif(int angle)
-{
-  RotatePattern(angle);
-}
-
 void SenseHat::RotatePattern(int angle)
 {
 
@@ -420,13 +392,8 @@ void SenseHat::RotatePattern(int angle)
  * @brief SenseHat::Effacer
  * @param uint16_t une couleur au format 565
  * @details Affiche la couleur sur l'ensemble de l'afficheur à leds
- *          une couleur Noir éteind l'écran
+ *          une couleur BLACK éteind l'écran
  */
-void SenseHat::Effacer(uint16_t couleur)
-{
-	memset(fb, couleur, 128);
-}
-
 void SenseHat::WipeScreen(uint16_t couleur)
 {
 	memset(fb, couleur, 128);
@@ -451,20 +418,12 @@ char SenseHat::ScanJoystick()
  * @brief SenseHat::ConvertirRGB565
  * @param uint8_t composante rouge
  * @param uint8_t composante verte
- * @param uint8_t composante bleu
+ * @param uint8_t composante BLUE
  * @return uint16_t une couleur codée en RGB565
  * @details permet de convertir une couleur exprimer sous la forme
  *          de trois entiers non signés sur 8 bits en un entier
  *          représentant la couleur codée en RGB565
  */
-
-uint16_t SenseHat::ConvertirRGB565(uint8_t rouge, uint8_t vert, uint8_t bleu)
-{
-
-return (ConvertRGB565(rouge, vert, bleu));
-}
-
-
 uint16_t SenseHat::ConvertRGB565(uint8_t red, uint8_t green, uint8_t blue)
 {
 
@@ -483,12 +442,6 @@ uint16_t SenseHat::ConvertRGB565(uint8_t red, uint8_t green, uint8_t blue)
  *          d'un tableaude  trois entiers non signés sur 8 bits en un entier
  *          représentant la couleur codée en RGB565
  */
-
-uint16_t SenseHat::ConvertirRGB565(uint8_t couleur[])
-{
-	return ConvertirRGB565(couleur[1],couleur[2],couleur[3]);
-}
-
 uint16_t SenseHat::ConvertRGB565(uint8_t color[])
 {
 	return ConvertRGB565(color[1],color[2],color[3]);
@@ -502,12 +455,6 @@ uint16_t SenseHat::ConvertRGB565(uint8_t color[])
  *          d'une chaîne de caractère au format hexa en un entier
  *          représentant la couleur codée en RGB565
  */
-
-COULEUR SenseHat::ConvertirRGB565(std::string hexCode)
-{
-  return ConvertRGB565(hexCode);
-}
-
 COLOR_SENSEHAT SenseHat::ConvertRGB565(std::string hexCode)
 {
    int r, g, b;
