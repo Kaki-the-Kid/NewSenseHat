@@ -264,7 +264,7 @@ int main()
 	float temperatureF;
 
 	senseHat.WipeScreen();
-	senseHat << setcouleur(senseHat.ConvertRGB565(64,84,0));
+	senseHat << setcolor(senseHat.ConvertRGB565(64,84,0));
 
 	do
 	{

@@ -1,8 +1,9 @@
 var searchData=
 [
-  ['temp_2166',['temp',['../class_sense_hat_measurements_d_b.html#a3097a48b4532bc1469a56b108c930179',1,'SenseHatMeasurementsDB']]],
-  ['temperature_2167',['temperature',['../struct_r_t_i_m_u___d_a_t_a.html#af8b90a27ce8b4e287211353b4914ad8c',1,'RTIMU_DATA']]],
-  ['temperaturevalid_2168',['temperatureValid',['../struct_r_t_i_m_u___d_a_t_a.html#ae73c0c1e0581e31905c3c46e520926a3',1,'RTIMU_DATA']]],
-  ['time_2169',['time',['../class_sense_hat_measurements_d_b.html#ad90ffe5e1c07a3042a357f4180862fdb',1,'SenseHatMeasurementsDB']]],
-  ['timestamp_2170',['timestamp',['../struct_r_t_i_m_u___d_a_t_a.html#a670216d5d70a993684f59117cee1b75e',1,'RTIMU_DATA']]]
+  ['o_2415',['O',['../namespacerotation.html#a16d4e9c92f17884894cb173d83c91751',1,'rotation']]],
+  ['offset_2416',['offset',['../namespacecompass.html#a15a0e61698028776ae58fa94e69b3834',1,'compass']]],
+  ['orientationpitch_2417',['orientationPitch',['../class_sense_hat_measurements_d_b.html#ab6c9b3c209973f0c5a3fb2a3c0955d56',1,'SenseHatMeasurementsDB']]],
+  ['orientationroll_2418',['orientationRoll',['../class_sense_hat_measurements_d_b.html#aada33bab5b88f65308358eb947a5013b',1,'SenseHatMeasurementsDB']]],
+  ['orientationyaw_2419',['orientationYaw',['../class_sense_hat_measurements_d_b.html#af5dedd6038b4fdc4062ed5d14d659a79',1,'SenseHatMeasurementsDB']]],
+  ['outgoingmessage_2420',['outgoingMessage',['../class_isolated_container.html#a438925ae8f4d954ca2e714c1abd47ab9',1,'IsolatedContainer']]]
 ];

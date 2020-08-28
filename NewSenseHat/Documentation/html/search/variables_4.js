@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['fixdirectorycount_2004',['fixDirectoryCount',['../_sparkel_container_8cpp.html#a6c610f4473c9b83dbb237cc2e609a6d9',1,'SparkelContainer.cpp']]],
-  ['font_2005',['font',['../font_8h.html#ab26f3e1233eff15ce8367c5860c4c414',1,'font.h']]],
-  ['fusionpose_2006',['fusionPose',['../struct_r_t_i_m_u___d_a_t_a.html#a181e71cb1ce41148ea8abaea4a79f173',1,'RTIMU_DATA']]],
-  ['fusionposevalid_2007',['fusionPoseValid',['../struct_r_t_i_m_u___d_a_t_a.html#ae0fd3a58ca6b0bdc3855287fed93adab',1,'RTIMU_DATA']]],
-  ['fusionqpose_2008',['fusionQPose',['../struct_r_t_i_m_u___d_a_t_a.html#a6b56d4be9f0366e054910cf94f4d58a6',1,'RTIMU_DATA']]],
-  ['fusionqposevalid_2009',['fusionQPoseValid',['../struct_r_t_i_m_u___d_a_t_a.html#a79ccc73bc02ba96ef5120a07fc0f5f4c',1,'RTIMU_DATA']]]
+  ['empty_2234',['empty',['../digital_clock_8cpp.html#a9e4ea9672387c046f476918cdee60a12',1,'digitalClock.cpp']]],
+  ['errormessage_2235',['errorMessage',['../class_isolated_container.html#a3b2815839abbbd453b916fd47105dfc5',1,'IsolatedContainer']]],
+  ['ev_5fkey_2236',['EV_KEY',['../classsense__hat_1_1stick_1_1_sense_stick.html#a49913c6d797ad0f51934cb128891533d',1,'sense_hat::stick::SenseStick']]],
+  ['event_5fformat_2237',['EVENT_FORMAT',['../classsense__hat_1_1stick_1_1_sense_stick.html#a837875defc02b3dc450aeb35c015969f',1,'sense_hat::stick::SenseStick']]],
+  ['event_5fsize_2238',['EVENT_SIZE',['../classsense__hat_1_1stick_1_1_sense_stick.html#a7f4edd3f7af90bd93eef786c2ecaefec',1,'sense_hat::stick::SenseStick']]],
+  ['exemplary_2239',['EXEMPLARY',['../_l_i_c_e_n_c_e_8txt.html#a9b73c064cf02b0c5bc6f51b2863b9700',1,'LICENCE.txt']]]
 ];

@@ -48,7 +48,7 @@ int main(){
    float x,y,z;
    int angle;
 
-   carte << setcouleur(carte.ConvertirRGB565(64,84,0));
+   carte << setcolor(carte.ConvertirRGB565(64,84,0));
 
    do{
 	carte.ObtenirAcceleration(x,y,z);

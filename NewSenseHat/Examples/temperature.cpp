@@ -26,7 +26,7 @@ int main() {
     int angle;
 
     carte.Effacer();
-    carte << setcouleur(carte.ConvertirRGB565(64,84,0));
+    carte << setcolor(carte.ConvertirRGB565(64,84,0));
 
     while(1){
 	carte.ObtenirAcceleration(x,y,z);

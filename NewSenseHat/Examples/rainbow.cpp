@@ -9,7 +9,7 @@
 #include <SenseHat.h>
 #include <iostream>
 
-void CouleurSuivante( uint8_t pix[3]){
+void colorSuivante( uint8_t pix[3]){
     uint8_t r = pix[0];
     uint8_t g = pix[1];
     uint8_t b = pix[2];
@@ -58,7 +58,7 @@ int main(){
 	    for(int j=0; j<8; j++){
 	    	pixel = carte.ConvertirRGB565(image[i][j]);
 	    	carte.AllumerPixel(i,j,pixel);
-	    	CouleurSuivante(image[i][j]);
+	    	colorSuivante(image[i][j]);
 	    }
     	}
 	usleep(100);

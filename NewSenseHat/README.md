@@ -56,13 +56,13 @@ The output stream of the SenseHat class makes it possible to perform display ope
 
  In addition, SenseHat defines flow manipulators to perform simple operations.
 
- **endl** **flush** **setcouleur** **setrotation**
+ **endl** **flush** **setcolor** **setrotation**
 
  The use of the << operator on this stream is therefore summarized in the following syntax:
 
 ```cpp
     SenseHat carte;
-    carte << setcouleur(ORANGE) << setrotation(90) << "message " << 3.1415 << 58 << 'E' << endl;
+    carte << setcolor(ORANGE) << setrotation(90) << "message " << 3.1415 << 58 << 'E' << endl;
 ```
 As can be seen, it is possible to make several outputs successively on the same stream.
 
@@ -70,7 +70,7 @@ As can be seen, it is possible to make several outputs successively on the same 
 
 The **endl**  or **flush** manipulator must be inserted at the end of the flow to get the output. The class stores what is passed to it in a buffer and actually writes only during a call to flush or endl.
 
-The **setcouleur** manipulator is used to set the color of the text.
+The **setcolor** manipulator is used to set the color of the text.
 
 The **setrotation** manipulator is used to rotate the display at 90 °, 180 ° or 270 °.
 

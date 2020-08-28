@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['vert_3267',['VERT',['../_sense_hat_8h.html#a22c2b7cb14b1ffb516a9ed4a164b5cda',1,'SenseHat.h']]]
+  ['yellow_3553',['YELLOW',['../_sense_hat_8h.html#abf681265909adf3d3e8116c93c0ba179',1,'SenseHat.h']]]
 ];
