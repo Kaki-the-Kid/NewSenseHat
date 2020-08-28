@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['getaccel_1769',['getAccel',['../class_r_t_i_m_u.html#a9a9b9aa1a03dfee85ec1f96a5501d17f',1,'RTIMU']]],
+  ['getaccelcalibrationvalid_1770',['getAccelCalibrationValid',['../class_r_t_i_m_u.html#aff338ee383544ccf85f24a5f634cbfad',1,'RTIMU']]],
+  ['getacceleration_1771',['GetAcceleration',['../class_sense_hat.html#a6552b75c4c4ac2867fa9225bd9a1a07a',1,'SenseHat']]],
+  ['getaccelresiduals_1772',['getAccelResiduals',['../class_r_t_i_m_u.html#a5d518f586283cab3917fd18e6d880cbe',1,'RTIMU::getAccelResiduals()'],['../class_r_t_fusion.html#add6aa85dd7349db335a16ddf5578acbe',1,'RTFusion::getAccelResiduals()']]],
+  ['getcmdoption_1773',['getCmdOption',['../_sparkel_container_8cpp.html#ad67d0fafd84cbab0a316225edcb45757',1,'SparkelContainer.cpp']]],
+  ['getcompass_1774',['getCompass',['../class_r_t_i_m_u.html#a913bc63278523fce615fa39a63d20bb1',1,'RTIMU']]],
+  ['getcompasscalibrationellipsoidvalid_1775',['getCompassCalibrationEllipsoidValid',['../class_r_t_i_m_u.html#aa2f8722019e820e53d2cf1bd095e8130',1,'RTIMU']]],
+  ['getcompasscalibrationvalid_1776',['getCompassCalibrationValid',['../class_r_t_i_m_u.html#a3e6c05f2226e8311dfa0e9b581aafb14',1,'RTIMU']]],
+  ['getcputemperature_1777',['getCpuTemperature',['../class_sense_hat.html#a056f0e1f19e08cdb8a6c08ff42a9ff65',1,'SenseHat']]],
+  ['getgyro_1778',['getGyro',['../class_r_t_i_m_u.html#ac58c8f6f9ceff10d8cd1264a2a410783',1,'RTIMU']]],
+  ['gethumidity_1779',['GetHumidity',['../class_sense_hat.html#a6926d4e99411b223f8751d540f18965b',1,'SenseHat']]],
+  ['getimudata_1780',['getIMUData',['../class_r_t_i_m_u.html#a92d581cbd607d144228093e6e4157526',1,'RTIMU']]],
+  ['getmagnetism_1781',['GetMagnetism',['../class_sense_hat.html#a23570505a67f03bbbeac3adbabc81a49',1,'SenseHat']]],
+  ['getmeasuredpose_1782',['getMeasuredPose',['../class_r_t_i_m_u.html#a047b882b50c3f91bdd771c657a37ef44',1,'RTIMU::getMeasuredPose()'],['../class_r_t_fusion.html#ad0b858721c4d8cf08973df7656cd475f',1,'RTFusion::getMeasuredPose()']]],
+  ['getmeasuredqpose_1783',['getMeasuredQPose',['../class_r_t_i_m_u.html#a64693d2708dcb96eae1ef552b842805e',1,'RTIMU::getMeasuredQPose()'],['../class_r_t_fusion.html#a9a88b543377c05aec1c4898371e39b15',1,'RTFusion::getMeasuredQPose()']]],
+  ['getorientation_1784',['GetOrientation',['../class_sense_hat.html#a21e025fc342454b07d8473613726febd',1,'SenseHat']]],
+  ['getpixel_1785',['GetPixel',['../class_sense_hat.html#a445aef5f0283afc359a7a55f79528bc2',1,'SenseHat']]],
+  ['getpressure_1786',['GetPressure',['../class_sense_hat.html#ada6ec5fa3f6f18850a5d1da319ecbb5a',1,'SenseHat']]],
+  ['getrawtemperature_1787',['getRawTemperature',['../class_sense_hat.html#a4334a6ff61d3068063c442759e24e933',1,'SenseHat']]],
+  ['getsphericalmagnetism_1788',['GetSphericalMagnetism',['../class_sense_hat.html#ae957df3f37a68c27aea6db9b6871b3ec',1,'SenseHat']]],
+  ['gettemperature_1789',['GetTemperature',['../class_sense_hat.html#a061eb57e14825997e155b3ebea7362bc',1,'SenseHat']]],
+  ['gettime_1790',['getTime',['../digital_clock_8cpp.html#a28cd88eacd51c2ce55c4b766b6035a29',1,'digitalClock.cpp']]],
+  ['gyrobiasinit_1791',['gyroBiasInit',['../class_r_t_i_m_u.html#af471c09cae6f869fb4887e723a612c35',1,'RTIMU']]]
+];
